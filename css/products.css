@@ -1,0 +1,38 @@
+body{
+    direction: rtl;
+}
+.cat-price-items{
+    max-height: 20px;
+}
+.w-98{
+    width: 98%;
+}
+.popular-border{
+    border: 0.5px dashed gray;
+    transition: 0.3s ease-in-out;
+    border-radius: 0px;
+}
+.popular-border:hover{
+   border: 0.1px dashed white;
+    background-color: white;
+    box-shadow:  0 0 4px 5px white;
+    color: orange;
+}
+.paginate-ul {
+    list-style: none;
+}
+
+.paginate-item {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgba(255, 166, 0, 0.721);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.paginate-link{
+        text-align: center;
+    text-decoration: blink;
+    color: rgb(255, 128, 0);
+}
