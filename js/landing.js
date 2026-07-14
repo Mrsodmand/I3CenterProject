@@ -29,16 +29,4 @@ const productsEl = document.querySelector(".products-card");
     console.log(error);
   }
 })();
-cards.forEach(card=>{
 
-    card.addEventListener("mouseenter",()=>{
-
-        detailTitle.textContent=...
-
-        detailImage.src=...
-
-        detailPrice.textContent=...
-
-    })
-
-})
